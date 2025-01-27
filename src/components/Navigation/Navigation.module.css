@@ -1,0 +1,10 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 1440px;
+    height: 72px;
+    top: 0;
+    position: relative;
+}
