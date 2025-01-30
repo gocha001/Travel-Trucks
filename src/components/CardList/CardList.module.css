@@ -1,0 +1,7 @@
+.cardListContainer {
+    display: flex;
+    flex-direction: column;
+    width: 888px;
+    margin-top: 48px;
+    gap: 8px;
+}

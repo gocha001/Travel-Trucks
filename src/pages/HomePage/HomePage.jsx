@@ -1,6 +1,13 @@
 import css from "./HomePage.module.css";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
+  const handleCatalog = () => {
+    navigate("/catalog");
+  }
+
   return (
     <div className={css.homeContainer}>
       <div className={css.homeText}>
@@ -10,7 +17,7 @@ const HomePage = () => {
             You can find everything you want in our catalog
           </h3>
         </div>
-        <button className={css.homeBtn}>View Now</button>
+        <button className={css.homeBtn} onClick={handleCatalog}>View Now</button>
       </div>
     </div>
   );

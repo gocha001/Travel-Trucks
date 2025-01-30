@@ -1,0 +1,113 @@
+.searchContainer {
+  margin-top: 48px;
+  margin-left: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 360px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.locationCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 360px;
+  height: 88px;
+}
+
+.inputLabel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+  margin-bottom: 8px;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.map {
+  position: relative;
+  left: 12px;
+}
+
+.input {
+  width: 360px;
+  height: 56px;
+  padding: 10px;
+  padding-left: 35px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-left: -20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.subTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.title {
+  margin-top: 32px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+
+hr {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: #dadde1;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.formBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  width: 166px;
+  height: 56px;
+  background: #e44848;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+}

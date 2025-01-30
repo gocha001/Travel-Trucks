@@ -1,0 +1,8 @@
+.catalogContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+    overflow-y: auto;
+    margin-top: 72px;
+}

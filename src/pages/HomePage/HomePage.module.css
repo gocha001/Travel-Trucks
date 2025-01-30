@@ -1,72 +1,71 @@
 .homeContainer {
-    width: 1560px;
-height: 696px;
-background: rgba(0, 0, 0, 0.2);
-background-image: url(../../assets/pictures/Picture-min.png);
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-align-items: center;
+  width: 1560px;
+  height: 696px;
+  background: rgba(0, 0, 0, 0.2);
+  background-image: url(../../assets/pictures/Picture-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 .homeText {
-    display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 40px;
-width: 571px;
-height: 176px;
-/* transform: rotate(-180deg); */
-margin-left: 64px;
-
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  width: 571px;
+  height: 176px;
+  /* transform: rotate(-180deg); */
+  margin-left: 64px;
 }
 
 .homeTitleContainer {
-    display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 16px;
-width: 571px;
-height: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  width: 571px;
+  height: 80px;
 }
 
 .homeTitle {
-    margin: 0;
-    font-weight: 600;
-font-size: 48px;
-line-height: 0.66667;
-color: #f7f7f7;
+  margin: 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.66667;
+  color: #f7f7f7;
 }
 
 .homeSubTitle {
-    margin: 0;
-    font-weight: 600;
-font-size: 24px;
-line-height: 1.33333;
-color: #f7f7f7;
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #f7f7f7;
 }
 
 .homeBtn {
-    display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-gap: 10px;
-border-radius: 200px;
-padding: 16px 60px;
-width: 173px;
-height: 56px;
-background: #e44848;
- white-space: nowrap;
- font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: -0.01em;
-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 173px;
+  height: 56px;
+  background: #e44848;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
 }
 
 .homeBtn:focus {
-    background: #d84343;
+  background: #d84343;
 }
