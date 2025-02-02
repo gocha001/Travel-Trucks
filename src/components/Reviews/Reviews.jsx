@@ -25,7 +25,7 @@ const Reviews = () => {
                         widths="16"
                         height="16"
                       >
-                        <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Pressed-1" />
+                        <use href="/icon-love-star.svg#icon-Property-1Pressed-1" />
                       </svg>
                     ) : (
                       <svg
@@ -34,7 +34,7 @@ const Reviews = () => {
                         widths="16"
                         height="16"
                       >
-                        <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Default-1" />
+                        <use href="/icon-love-star.svg#icon-Property-1Default-1" />
                       </svg>
                     )
                   )}

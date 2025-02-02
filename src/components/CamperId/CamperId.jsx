@@ -17,11 +17,11 @@ export const CamperId = () => {
             <div className={css.reviews}>
               {camperId.rating > 2 ? (
                 <svg className={css.ratingSvg} widths="16" height="16">
-                  <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Pressed-1" />
+                  <use href="/icon-love-star.svg#icon-Property-1Pressed-1" />
                 </svg>
               ) : (
                 <svg className={css.ratingSvg} widths="16" height="16">
-                  <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Default-1" />
+                  <use href="/icon-love-star.svg#icon-Property-1Default-1" />
                 </svg>
               )}
               <p className={css.reviewsText}>
@@ -30,7 +30,7 @@ export const CamperId = () => {
             </div>
             <div className={css.location}>
               <svg className={css.locationSvg} widths="16" height="16">
-                <use href="/src/assets/icons/catalog/icon-map.svg#icon-Map" />
+                <use href="/icon-map.svg#icon-Map" />
               </svg>
               <p className={css.locationText}>{camperId.location}</p>
             </div>

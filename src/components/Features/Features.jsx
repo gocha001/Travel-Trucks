@@ -10,14 +10,14 @@ const camperId = useSelector(selectCamperId);
       <div className={css.badges}>
         <div className={css.badgesItem}>
           <svg className={css.badgesSvg}>
-            <use href="/src/assets/icons/catalog/icon-card.svg#icon-diagram" />
+            <use href="/icon-card.svg#icon-diagram" />
           </svg>
           <p className={css.badgesText}>{camperId.transmission}</p>
         </div>
 
         <div className={css.badgesItem}>
           <svg className={css.badgesSvg}>
-            <use href="/src/assets/icons/catalog/icon-card.svg#icon-fuel-pump" />
+            <use href="/icon-card.svg#icon-fuel-pump" />
           </svg>
           <p className={css.badgesText}>{camperId.engine}</p>
         </div>
@@ -25,7 +25,7 @@ const camperId = useSelector(selectCamperId);
         {camperId.kitchen && (
           <div className={css.badgesItem}>
             <svg className={css.badgesSvg}>
-              <use href="/src/assets/icons/catalog/icon-card.svg#icon-cup-hot" />
+              <use href="/icon-card.svg#icon-cup-hot" />
             </svg>
             <p className={css.badgesText}>Kithen</p>
           </div>
@@ -34,7 +34,7 @@ const camperId = useSelector(selectCamperId);
         {camperId.radio && (
           <div className={css.badgesItem}>
             <svg className={css.badgesSvg}>
-              <use href="/src/assets/icons/catalog/icon-card.svg#icon-ui-radios" />
+              <use href="/icon-card.svg#icon-ui-radios" />
             </svg>
             <p className={css.badgesText}>Radio</p>
           </div>
@@ -43,7 +43,7 @@ const camperId = useSelector(selectCamperId);
         {camperId.AC && (
           <div className={css.badgesItem}>
             <svg className={css.badgesSvg}>
-              <use href="/src/assets/icons/catalog/icon-card.svg#icon-wind" />
+              <use href="/icon-card.svg#icon-wind" />
             </svg>
             <p className={css.badgesText}>AC</p>
           </div>
@@ -52,7 +52,7 @@ const camperId = useSelector(selectCamperId);
         {camperId.bathroom && (
           <div className={css.badgesItem}>
             <svg className={css.badgesSvg}>
-              <use href="/src/assets/icons/catalog/icon-card.svg#icon-ph_shower" />
+              <use href="/icon-card.svg#icon-ph_shower" />
             </svg>
             <p className={css.badgesText}>Bathroom</p>
           </div>
@@ -61,7 +61,7 @@ const camperId = useSelector(selectCamperId);
         {camperId.refrigerator && (
           <div className={css.badgesItem}>
             <svg className={css.badgesSvg}>
-              <use href="/src/assets/icons/catalog/icon-card.svg#icon-solar_fridge-outline" />
+              <use href="/icon-card.svg#icon-solar_fridge-outline" />
             </svg>
             <p className={css.badgesText}>Refrigerator</p>
           </div>

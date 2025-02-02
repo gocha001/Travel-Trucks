@@ -62,11 +62,11 @@ export const Card = ({ camper }) => {
             <div className={css.reviews}>
               {camper.rating > 2 ? (
                 <svg className={css.ratingSvg} widths="16" height="16">
-                  <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Pressed-1" />
+                  <use href="/icon-love-star.svg#icon-Property-1Pressed-1" />
                 </svg>
               ) : (
                 <svg className={css.ratingSvg} widths="16" height="16">
-                  <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Default-1" />
+                  <use href="/icon-love-star.svg#icon-Property-1Default-1" />
                 </svg>
               )}
               <p className={css.reviewsText}>
@@ -75,7 +75,7 @@ export const Card = ({ camper }) => {
             </div>
             <div className={css.location}>
               <svg className={css.locationSvg} widths="16" height="16">
-                <use href="/src/assets/icons/catalog/icon-map.svg#icon-Map" />
+                <use href="/icon-map.svg#icon-Map" />
               </svg>
               <p className={css.locationText}>{camper.location}</p>
             </div>
@@ -87,14 +87,14 @@ export const Card = ({ camper }) => {
         <div className={css.badges}>
           <div className={css.badgesItem}>
             <svg className={css.badgesSvg}>
-              <use href="/src/assets/icons/catalog/icon-card.svg#icon-diagram" />
+              <use href="/icon-card.svg#icon-diagram" />
             </svg>
             <p className={css.badgesText}>{camper.transmission}</p>
           </div>
 
           <div className={css.badgesItem}>
             <svg className={css.badgesSvg}>
-              <use href="/src/assets/icons/catalog/icon-card.svg#icon-fuel-pump" />
+              <use href="/icon-card.svg#icon-fuel-pump" />
             </svg>
             <p className={css.badgesText}>{camper.engine}</p>
           </div>
@@ -102,7 +102,7 @@ export const Card = ({ camper }) => {
           {camper.kitchen && (
             <div className={css.badgesItem}>
               <svg className={css.badgesSvg}>
-                <use href="/src/assets/icons/catalog/icon-card.svg#icon-cup-hot" />
+                <use href="/icon-card.svg#icon-cup-hot" />
               </svg>
               <p className={css.badgesText}>Kitchen</p>
             </div>
@@ -111,7 +111,7 @@ export const Card = ({ camper }) => {
           {camper.radio && (
             <div className={css.badgesItem}>
               <svg className={css.badgesSvg}>
-                <use href="/src/assets/icons/catalog/icon-card.svg#icon-ui-radios" />
+                <use href="/icon-card.svg#icon-ui-radios" />
               </svg>
               <p className={css.badgesText}>Radio</p>
             </div>
@@ -120,7 +120,7 @@ export const Card = ({ camper }) => {
           {camper.AC && (
             <div className={css.badgesItem}>
               <svg className={css.badgesSvg}>
-                <use href="/src/assets/icons/catalog/icon-card.svg#icon-wind" />
+                <use href="/icon-card.svg#icon-wind" />
               </svg>
               <p className={css.badgesText}>AC</p>
             </div>
@@ -129,7 +129,7 @@ export const Card = ({ camper }) => {
           {camper.bathroom && (
             <div className={css.badgesItem}>
               <svg className={css.badgesSvg}>
-                <use href="/src/assets/icons/catalog/icon-card.svg#icon-ph_shower" />
+                <use href="/icon-card.svg#icon-ph_shower" />
               </svg>
               <p className={css.badgesText}>Bathroom</p>
             </div>
@@ -138,7 +138,7 @@ export const Card = ({ camper }) => {
           {camper.refrigerator && (
             <div className={css.badgesItem}>
               <svg className={css.badgesSvg}>
-                <use href="/src/assets/icons/catalog/icon-card.svg#icon-solar_fridge-outline" />
+                <use href="/icon-card.svg#icon-solar_fridge-outline" />
               </svg>
               <p className={css.badgesText}>Refrigerator</p>
             </div>
