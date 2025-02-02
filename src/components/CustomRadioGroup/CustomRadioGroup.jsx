@@ -2,11 +2,9 @@ import css from "./CustomRadioGroup.module.css";
 
 const CustomRadioGroup = ({ field, options }) => {
   return (
-
     <div className={css.radioGroup}>
       {options.map((option) => (
         <label key={option.value} className={css.radioLabel}>
-          
           <input
             type="radio"
             {...field}
@@ -21,7 +19,6 @@ const CustomRadioGroup = ({ field, options }) => {
             </svg>
             <span className={css.radioText}>{option.label}</span>
           </div>
-
         </label>
       ))}
     </div>

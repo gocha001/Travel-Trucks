@@ -42,3 +42,9 @@
   text-align: center;
   color: #d84343 !important;
 }
+
+.favoriteBtn {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+}

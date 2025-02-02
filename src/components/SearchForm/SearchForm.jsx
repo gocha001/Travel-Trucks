@@ -5,8 +5,12 @@ import { equipmentOptions } from "../../data/equipmentOptions";
 import EquipmentField from "../EquipmentField/EquipmentField";
 import CustomRadioGroup from "../CustomRadioGroup/CustomRadioGroup";
 import { formOptions } from "../../data/formOptions";
+import { useDispatch } from "react-redux";
+import { changeFilter } from "../../redux/filter/filterSlice";
 
 export const SearchForm = () => {
+  const dispatch = useDispatch();
+
   const initialValues = {
     location: "",
     form: "",
@@ -14,15 +18,15 @@ export const SearchForm = () => {
   };
 
   const validationSchema = Yup.object({
-    location: Yup.string().required("Required").min(2, "Minimum 2 symbols"),
-    form: Yup.string().required("Choose a form"),
-    equipment: Yup.array()
-      .min(1, "Select at least one device")
-      .required("Required"),
+    location: Yup.string().min(2, "Minimum 2 symbols"),
+    form: Yup.string(),
+    equipment: Yup.array(),
   });
 
-  const onSubmit = (values) => {
-    console.log(values);
+  const onSubmit = (values, options) => {
+    dispatch(changeFilter(values));
+    window.scrollTo(0, 0);
+    options.resetForm();
   };
 
   return (

@@ -1,6 +1,7 @@
-import css from './CheckBox.module.css';
+import css from "./CheckBox.module.css";
 
 const Checkbox = ({ field, id, label, icon, value }) => {
+  
   return (
     <div className={css.checkboxContainer}>
       <input
@@ -12,18 +13,8 @@ const Checkbox = ({ field, id, label, icon, value }) => {
         className={css.checkboxInput}
       />
       <label htmlFor={id} className={css.checkboxLabel}>
-        <svg
-          width="32"
-          height="32"
-          stroke="currentColor"
-          fill="none"
-        >
-          <use
-            href={icon}
-            // stroke="black"
-            strokeWidth="1.6"
-            // vectorEffect="non-scaling-stroke"
-          />
+        <svg width="32" height="32">
+          <use href={icon} />
         </svg>
         {label}
       </label>
@@ -32,4 +23,3 @@ const Checkbox = ({ field, id, label, icon, value }) => {
 };
 
 export default Checkbox;
-

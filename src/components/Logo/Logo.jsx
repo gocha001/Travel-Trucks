@@ -1,5 +1,5 @@
-import css from './Logo.module.css';
-import icons from '../../assets/icons/logo/icon-logo.svg';
+import css from "./Logo.module.css";
+import icons from "../../assets/icons/logo/icon-logo.svg";
 
 export const Logo = () => {
   return (
@@ -9,4 +9,4 @@ export const Logo = () => {
       </svg>
     </div>
   );
-}
+};

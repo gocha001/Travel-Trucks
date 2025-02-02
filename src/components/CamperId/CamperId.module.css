@@ -1,0 +1,205 @@
+.camperIdContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.camperIdTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 1312px;
+  height: 112px;
+}
+
+.camperIdTitleText {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #101828;
+  height: 32px;
+  margin: 0;
+}
+
+.camperIdDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  height: 72px;
+}
+
+.camperIdReviews {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  height: 24px;
+}
+
+.reviews {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  height: 24px;
+}
+
+.ratingSvg {
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+}
+
+.reviewsText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #101828;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4px;
+  height: 24px;
+}
+
+.locationSvg {
+  width: 16px;
+  height: 16px;
+}
+
+.locationText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+}
+
+.euro {
+  margin-top: 8px;
+  width: 16px;
+  height: 20px;
+}
+
+.text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #101828;
+}
+
+.pictures {
+  width: 1312px;
+  height: 312px;
+}
+
+.picturesUl {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  width: 1312px;
+  height: 312px;
+  margin: 0;
+}
+
+.img {
+  width: 427px;
+  height: 312px;
+  object-fit: cover;
+}
+
+.description {
+  width: 1312px;
+  height: 48px;
+}
+
+.descriptionText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  width: 1312px;
+  height: 48px;
+}
+
+.links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  width: 206px;
+  height: 24px;
+}
+
+.link {
+  height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+  & .linkLine {
+    display: none;
+  }
+}
+
+.active {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+
+.linkLine {
+  margin: 0;
+  width: 80px;
+  height: 6px;
+  background-color: #e44848;
+  margin-top: 24px;
+  border: none;
+}
+
+.line {
+  width: 1312px;
+  height: 1px;
+  color: #dadde1;
+  margin: 0;
+  margin-top: 2px;
+  z-index: -1000;
+}

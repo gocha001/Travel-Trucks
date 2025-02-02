@@ -6,7 +6,7 @@ const HomePage = () => {
 
   const handleCatalog = () => {
     navigate("/catalog");
-  }
+  };
 
   return (
     <div className={css.homeContainer}>
@@ -17,10 +17,12 @@ const HomePage = () => {
             You can find everything you want in our catalog
           </h3>
         </div>
-        <button className={css.homeBtn} onClick={handleCatalog}>View Now</button>
+        <button className={css.homeBtn} onClick={handleCatalog}>
+          View Now
+        </button>
       </div>
     </div>
   );
-}
+};
 
 export default HomePage;

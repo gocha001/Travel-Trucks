@@ -1,9 +1,12 @@
+import defaultImg from "../../assets/pictures/notFound.png";
+import css from "./NotFoundPage.module.css";
 
-
-const NotFoundPage = () => {
+const NotFound = () => {
   return (
-    <div>NotFoundPage</div>
-  )
-}
+    <div className={css.notFound}>
+      <img src={defaultImg} />
+    </div>
+  );
+};
 
-export default NotFoundPage;
+export default NotFound;

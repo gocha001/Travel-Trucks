@@ -34,5 +34,4 @@
 .checkboxInput:checked + .checkboxLabel {
   color: white;
   border-color: #e44848;
-  /* transform: scale(1.05); */
 }

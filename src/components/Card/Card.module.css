@@ -1,0 +1,203 @@
+.cardContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+  width: 840px;
+  height: 320px;
+}
+
+.cardImg {
+  border-radius: 10px;
+  width: 292px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  width: 524px;
+  height: 320px;
+}
+
+.textContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 524px;
+  height: 64px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 524px;
+  height: 32px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #101828;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 156px;
+  height: 32px;
+}
+
+.euro {
+  width: 16px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+.loveBtn {
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  height: 24px;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 4px;
+  height: 24px;
+}
+
+.ratingSvg {
+  width: 16px;
+  height: 16px;
+}
+
+.reviewsText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  height: 24px;
+}
+
+.locationSvg {
+  width: 16px;
+  height: 16px;
+}
+
+.locationText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.support {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 525px;
+  height: 24px;
+}
+
+.badges {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  width: 524px;
+  height: 104px;
+  flex-wrap: wrap;
+}
+
+.badgesItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 24px;
+  padding: 12px 18px;
+  height: 48px;
+  background: #f2f4f7;
+  mix-blend-mode: multiply;
+}
+
+.badgesSvg {
+  width: 20px;
+  height: 20px;
+}
+
+.badgesText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+  text-transform: capitalize;
+}
+
+.cardBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  background: #e44848;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+}
+
+.cardBtn:focus {
+  background: #d84343;
+}

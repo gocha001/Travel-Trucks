@@ -1,12 +1,14 @@
 .homeContainer {
   width: 1560px;
-  height: 696px;
+  height: 664px;
   background: rgba(0, 0, 0, 0.2);
   background-image: url(../../assets/pictures/Picture-min.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center;
   display: flex;
   align-items: center;
+  margin-top: 72px;
 }
 
 .homeText {
@@ -17,7 +19,6 @@
   gap: 40px;
   width: 571px;
   height: 176px;
-  /* transform: rotate(-180deg); */
   margin-left: 64px;
 }
 
@@ -64,6 +65,8 @@
   line-height: 1.5;
   letter-spacing: -0.01em;
   color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .homeBtn:focus {

@@ -110,4 +110,10 @@ hr {
   line-height: 1.5;
   letter-spacing: -0.01em;
   color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.formBtn:focus {
+  background: #d84343;
 }
