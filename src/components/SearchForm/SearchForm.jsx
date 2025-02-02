@@ -43,7 +43,7 @@ export const SearchForm = () => {
             </label>
             <div className={css.inputCont}>
               <svg width="20" height="20" className={css.map}>
-                <use href="/src/assets/icons/catalog/icon-map.svg#icon-Map" />
+                <use href="/icon-map.svg#icon-Map" />
               </svg>
               <Field
                 type="text"
