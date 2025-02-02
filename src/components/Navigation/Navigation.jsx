@@ -34,12 +34,12 @@ export const Navigation = () => {
         <button className={css.favoriteBtn} onClick={handleClick} type="button">
           {!favorites.length && (
             <svg width="26" height="26">
-              <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Default" />
+              <use href="/icon-love-star.svg#icon-Property-1Default" />
             </svg>
           )}
           {!!favorites.length && (
             <svg width="26" height="26">
-              <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1pressed" />
+              <use href="/icon-love-star.svg#icon-Property-1pressed" />
             </svg>
           )}
         </button>

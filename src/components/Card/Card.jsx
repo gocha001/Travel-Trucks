@@ -46,12 +46,12 @@ export const Card = ({ camper }) => {
               >
                 {!isFavorite && (
                   <svg width="26" height="26">
-                    <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1Default" />
+                    <use href="/icon-love-star.svg#icon-Property-1Default" />
                   </svg>
                 )}
                 {isFavorite && (
                   <svg width="26" height="26">
-                    <use href="/src/assets/icons/catalog/icon-love-star.svg#icon-Property-1pressed" />
+                    <use href="/icon-love-star.svg#icon-Property-1pressed" />
                   </svg>
                 )}
               </button>
