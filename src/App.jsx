@@ -15,7 +15,7 @@ const Reviews = lazy(() => import("./components/Reviews/Reviews.jsx"));
 
 function App() {
   return (
-    <>
+    <div className="fade-in">
       <Navigation />
       <Suspense fallback={<Loader />}>
         <Routes>
@@ -28,7 +28,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>
-    </>
+    </div>
   );
 }
 
